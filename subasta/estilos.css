@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-size: 16px !important;
+    text-decoration: none;
+    color: #261e34;
+}
+
+#texto {
+    font-size: 16px !important;
+    text-decoration: none !important;
+    background: transparent;
+    color: #261e34;
+    padding-left: 4px;
+    outline: none !important;
+    margin: 0px auto;
+    border: none !important;
+    font-weight: bold;
+}
