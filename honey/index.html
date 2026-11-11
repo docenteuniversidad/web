@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Crunch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.27/dist/lenis.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <ul class="menu__items">
+            <li>Home</li>
+            <li>About</li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <img src="img/logo.png" alt="Logo" class="banner__logo">
+        <div class="banner__boton">HONEY CRUNCH</div>
+        <div class="banner__texto">Start your day the sweet, crunchy way</div>
+    </section>
+
+
+    <section class="about">
+        <div class="about__sec1">
+            <img src="img/mascot.png" alt="Mascot" class="about__mascot">
+        </div>
+        <div class="about__sec2">
+            <div class="about__title">ABOUT US</div>
+            <div class="about__text">
+                We believe breakfast should be simple, delicious, and energizing. That’s why we created our Honey Crush
+                Corn Flakes, a perfect balance of crispy golden flakes coated with a touch of natural honey sweetness.
+            </div>
+            <div class="about__boton">CONTACT US</div>
+        </div>
+    </section>
+
+
+    <section class="product">
+        <div class="product__sec1">
+            <div class="product__title">OUR PRODUCT</div>
+            <div class="product__subtitle">Honey Crush Corn Flakes</div>
+            <div class="product__text">
+                Start your day with the irresistible crunch of our Honey Crush Corn Flakes. <br>
+                Made from high-quality corn and lightly coated with golden honey, our flakes deliver the perfect mix of
+                crisp texture and natural sweetness. They stay crunchy in milk and taste just as great on their own as a
+                quick snack.
+            </div>
+        </div>
+        <div class="product__sec2">
+            <div class="product__item">
+                <img src="img/icon1.png" alt="Icon1" class="product__icon">
+                <div class="product__item__title">Crispy, golden corn flakes</div>
+            </div>
+            <div class="product__item">
+                <img src="img/icon2.png" alt="Icon2" class="product__icon">
+                <div class="product__item__title">With real honey flavor</div>
+            </div>
+            <div class="product__item">
+                <img src="img/icon3.png" alt="Icon3" class="product__icon">
+                <div class="product__item__title">Perfect balance of sweetness</div>
+            </div>
+            <div class="product__item">
+                <img src="img/icon4.png" alt="Icon4" class="product__icon">
+                <div class="product__item__title">Great with milk, yogurt</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        Todos los derechos reservados Honey Crunch 2026
+    </footer>
+
+
+    <script src="https://unpkg.com/lenis@1.3.27/dist/lenis.min.js"></script>
+    <script>
+        const lenis = new Lenis({
+            autoRaf: true,
+            lerp: 0.05,
+        });
+    </script>
+
+</body>
+
+</html>
